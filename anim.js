@@ -4,34 +4,54 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+
+  // Primera Parte
+  { text: "No, no hay nada mejor", time: 31 },
+  { text: "Que probar de un primer beso", time: 37 },
+  { text: "Y más de ti", time: 42 },
+  { text: "Veo tantos colores", time: 47 },
+  { text: "Y todos mis sentidos estallarán", time: 52 },
+  { text: "De tanto amarte", time: 57 },
+
+  // Segunda Parte
+  { text: "¿Cómo se puede sentir", time: 64 },
+  { text: "Tantas cosas en tan poco tiempo", time: 69 },
+  { text: "Y no morir?", time: 74 },
+  { text: "Tú puedes hacer un gran nido", time: 80 },
+  { text: "En mi universo", time: 85 },
+  { text: "Puedes hacer lo que quieras conmigo", time: 90 },
+
+  // Estribillo
+  { text: "Yo siento que tú me querí", time: 98 },
+  { text: "Como yo te quiero", time: 103 },
+  { text: "Acuéstate a mi lado", time: 108 },
+  { text: "Esta noche te quiero vivir", time: 113 },
+  { text: "Arrúllame, ahógame, aplástame", time: 118 },
+  { text: "Desármarme, cómeme, fúmame", time: 123 },
+  { text: "Amor inquieto, amor drogado", time: 128 },
+  { text: "Amor completo", time: 133 },
+
+  // Tercera Parte
+  { text: "Oh, cada vez que yo", time: 143 },
+  { text: "Te veo y que te pienso", time: 148 },
+  { text: "Siento que florezco", time: 153 },
+  { text: "Me duele estar tan lejos", time: 158 },
+  { text: "No es fácil que no estés aquí", time: 163 },
+  { text: "Y aún así, puedes hacer", time: 168 },
+  { text: "Lo que quieras de mí", time: 173 },
+
+  // Estribillo final
+  { text: "Yo siento que tú me querí", time: 180 },
+  { text: "Como yo te quiero", time: 185 },
+  { text: "Acuéstate a mi lado", time: 190 },
+  { text: "Esta noche te quiero vivir", time: 195 },
+  { text: "Arrúllame, ahógame, aplástame", time: 200 },
+  { text: "Desármarme, cómeme, fúmame", time: 205 },
+  { text: "Amor inquieto, amor drogado", time: 210 },
+  { text: "Amor completo", time: 215 },
+  { text: "Amor inquieto, amor completo", time: 220 },
 ];
+
 
 // Animar las letras
 function updateLyrics() {
